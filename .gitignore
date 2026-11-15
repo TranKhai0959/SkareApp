@@ -1,0 +1,32 @@
+# Hệ điều hành & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Biến môi trường & Bảo mật
+# Vì Repo đang ở chế độ Public nên cần chặn để tránh bị public chuỗi kết nối lên Neon
+.env
+.env.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Python & Model AI
+# Dùng để chặn các file có đuôi .pt nặng
+venv/
+__pycache__/
+*.py[cod]
+*.pt
+*.onnx
+
+# Ảnh upload tạm khi test
+backend-api/uploads/*
+!backend-api/uploads/.gitkeep
+
+# Flutter / Dart build files
+mobile-app/.dart_tool/
+mobile-app/build/
+mobile-app/.flutter-plugins
+mobile-app/.flutter-plugins-dependencies
